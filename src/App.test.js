@@ -81,9 +81,7 @@ test("Disabled button has gray background and reverts to Midnight Blue", () => {
 
 describe("spaces before camel-case capital letters", () => {
   test("Works for no inner capital letter", () => {
-    expect(replaceCamelWithSpaces("MediumVioletRed")).toBe(
-      "Medium Violet Red"
-    );
+    expect(replaceCamelWithSpaces("MediumVioletRed")).toBe("Medium Violet Red");
   });
 
   test("Works for one inner capital letter", () => {
